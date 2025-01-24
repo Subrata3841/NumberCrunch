@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" value="0" disabled/>
+        </div>
+        <div class="buttons">
+            <!--First Row-->
+            <button>%</button>
+            <button>CE</button>
+            <button>C</button>
+            <button>&#9003;</button>  <!--&#9003;-> is the Unicode character for "erase to the left"-->
+            <!--Second Row-->
+            <button>1/x</button>
+            <button data-value="square">x<sup>2</sup></button>
+            <button>&#8730;</button> <!--&#8730;-> square root-->
+            <button>+</button>
+
+            <!-- Third Row -->
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>-</button>
+
+            <!-- Fourth Row -->
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>x</button>
+
+            <!-- Fifth Row -->
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>&divide;</button> <!-- Division symbol -->
+
+            <!-- Sixth Row -->
+            <button>&plusmn;</button> <!-- Plus-minus symbol -->
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
